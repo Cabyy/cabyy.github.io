@@ -15,8 +15,7 @@ html, body {
 	padding: 1em 2em;
 }
 #main-content {
-	color: green;
-	background-color: yellow;
+	color: black;
 }
 #site-footer-container {
 	position: absolute;
