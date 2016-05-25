@@ -44,7 +44,12 @@ body {
 	font-size: 1em;
 }
 .knowledge-item-content {
-	padding-left: .5em;
+	padding: .5em 0 .5em .5em;
 	font-weight: bold;
 	font-size: 1em;
+}
+.knowledge-item-mark {
+	float: right;
+	width: 15em;
+	color: red;
 }
