@@ -3,6 +3,9 @@ html, body {
 	text-align: center;
 	text-indent: 2em;
 }
+body {
+	width: 100%;
+}
 #site-header-container {
 	padding: 1em 0;
 	background-color: lightgray;
@@ -12,10 +15,11 @@ html, body {
 	font-weight: bold;
 }
 #main-container {
-	padding: 1em 2em;
+	padding: 1em 4em;
 }
-#main-content {
-	color: black;
+#site-greeting {
+	font-size: 1.8em;
+	font-weight: bolder;
 }
 #site-footer-container {
 	position: absolute;
@@ -24,4 +28,23 @@ html, body {
 	width: 100%;
 	padding: 1em 0;
 	background-color: lightgray;
+}
+.knowledge-container {
+	padding: 1em 0;
+	text-align: left;
+}
+.knowledge-item-container {
+	padding: 0;
+	text-indent: 0;
+}
+.knowledge-item-title {
+	padding-right: .5em;
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 1em;
+}
+.knowledge-item-content {
+	padding-left: .5em;
+	font-weight: bold;
+	font-size: 1em;
 }
