@@ -1,4 +1,28 @@
 html, body {
+	margin: 0;
 	text-align: center;
 	text-indent: 2em;
+}
+#site-header-container {
+	padding: 1em 0;
+	background-color: lightgray;
+}
+#site-title {
+	font-size: 2em;
+	font-weight: bold;
+}
+#main-container {
+	padding: 1em 2em;
+}
+#main-content {
+	color: green;
+	background-color: yellow;
+}
+#site-footer-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 1em 0;
+	background-color: lightgray;
 }
